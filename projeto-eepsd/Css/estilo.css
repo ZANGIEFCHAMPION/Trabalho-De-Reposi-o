@@ -1,0 +1,139 @@
+/* =============================
+   ESTILIZAÇÃO PROFISSIONAL
+   Azul marinho e branco, centralizado
+============================= */
+
+/* COR DE FUNDO GERAL */
+body {
+    background-color: #f8f9fa; /* branco suave */
+    color: #001f3f; /* azul marinho */
+    font-family: 'Segoe UI', Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    line-height: 1.6;
+}
+
+/* =============================
+   NAVBAR
+============================= */
+.navbar {
+    background-color: #0024f0 !important; /* azul atualizado */
+    padding: 0.8rem 1rem;
+}
+
+.navbar .navbar-brand {
+    display: flex;
+    align-items: center;
+    color: #ffffff !important;
+    font-weight: bold;
+}
+
+.navbar .navbar-brand img {
+    height: 50px;
+    margin-right: 10px;
+}
+
+.navbar .nav-link {
+    color: #ffffff !important;
+    margin-right: 0.8rem;
+}
+
+.navbar .nav-link:hover {
+    color: #ff0000 !important; /* vermelho ao passar o mouse */
+}
+
+/* =============================
+   CONTEÚDO CENTRALIZADO
+============================= */
+.container {
+    max-width: 900px;
+    margin: 50px auto;
+    background-color: #ffffff;
+    padding: 30px 40px;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+    border-radius: 10px;
+}
+
+/* FORMULÁRIOS */
+form label {
+    font-weight: bold;
+    margin-top: 15px;
+}
+
+input.form-control, textarea.form-control {
+    border: 1px solid #001f3f;
+    border-radius: 5px;
+    padding: 10px;
+}
+
+input.form-control:focus, textarea.form-control:focus {
+    border-color: #003366;
+    box-shadow: 0 0 8px rgba(0,31,63,0.3);
+}
+
+/* BOTÕES */
+.btn-primary, .btn-success {
+    background-color: #001f3f;
+    border-color: #001f3f;
+    border-radius: 5px;
+    padding: 10px 20px;
+    font-weight: bold;
+}
+
+.btn-primary:hover, .btn-success:hover {
+    background-color: #ff0000; /* vermelho ao passar o mouse */
+    border-color: #ff0000;
+}
+
+.btn-outline-light {
+    color: #ffffff;
+    border-color: #ffffff;
+    border-radius: 5px;
+}
+
+.btn-outline-light:hover {
+    background-color: #ffffff;
+    color: #001f3f;
+}
+
+/* TÍTULOS */
+h1, h2, h3 {
+    font-weight: bold;
+    color: #001f3f;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+/* CAROUSEL */
+.carousel-item img {
+    height: 420px;
+    object-fit: cover;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 10px;
+}
+
+/* FOOTER */
+footer {
+    background-color: #0024f0; /* azul atualizado */
+    color: #ffffff;
+    padding: 20px 0;
+    text-align: center;
+    margin-top: 50px;
+}
+
+/* =============================
+   CENTRALIZAÇÃO DE TEXTOS E ELEMENTOS
+============================= */
+.text-center {
+    text-align: center !important;
+}
+
+.mt-4 {
+    margin-top: 1.5rem !important;
+}
+
+.mb-4 {
+    margin-bottom: 1.5rem !important;
+}
